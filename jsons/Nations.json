@@ -301,7 +301,9 @@
 		"uniqueName": "River transportation network",
 		"uniques": ["[+1] movement <for [Land] units> <in [Flesh water] tiles>",
 			"[+1 Science] from [{Flesh water} {GrassLand}] tiles [in all cities]",
-		"[+2 Science] from [{Flesh water} {Forests}] tiles [in all cities]"],
+		"[+2 Science] from [{Flesh water} {Forests}] tiles [in all cities]",
+		"Special Victory Condition: Build the 15 continental plates and make 5 allied city states",
+		""],
 	},
 	{
 		"name": "The Pangaea",
@@ -320,7 +322,7 @@
 		"Gain [8] Influence with a [{Military} {Land}] gift to a City-State",
 		"Gain [2] Influence with a [{Civilian} {Land}] gift to a City-State",
 		"Special Victory Condition: Build the 15 continental plates and make 5 allied city states",
-		"Triggers victory <when above [4] [Allied CS]> <if [Pacific Plate] is constructed> <if [Eurasian Plate] is constructed> <if [African Plate] is constructed> <if [Arabian Plate] is constructed> <if [Indian Plate] is constructed> <if [Somali Plate] is constructed> <if [Antarctic Plate] is constructed> <if [Philippine Plate] is constructed> <if [Australian Plate] is constructed> <if [North American Plate] is constructed> <if [South American Plate] is constructed> <if [Nazca Plate] is constructed> <if [Scotia Plate] is constructed> <if [Cocos Plate] is constructed> <if [Caribbean Plate] is constructed> <if [Juan de Fuca Plate] is constructed>"
+		"Triggers victory <when above [4] [Allied CS]> <if [Pacific Plate] is constructed> <if [Eurasian Plate] is constructed> <if [African Plate] is constructed> <if [Arabian Plate] is constructed> <if [Indian Plate] is constructed> <if [Somali Plate] is constructed> <if [Antarctic Plate] is constructed> <if [Philippine Plate] is constructed> <if [Australian Plate] is constructed> <if [North American Plate] is constructed> <if [South American Plate] is constructed> <if [Nazca Plate] is constructed> <if [Scotia Plate] is constructed> <if [Cocos Plate] is constructed> <if [Caribbean Plate] is constructed> <if [Juan de Fuca Plate] is constructed> <hidden from users>"
 		],
 	},
 	{
@@ -339,7 +341,8 @@
 		"[+17]% Production when constructing [Devonian] wonders [in all cities]",
 		"[Gold] cost of purchasing [Reptiles] units [-25]%",
 		"Special Victory Condition: keep Devonian period 100 turns",
-		"Gain a free [Famennia Mission] [in capital]"
+		"Gain a free [Famennia Mission] [in capital] <upon entering the [Ancient era]> <hidden from users>",
+		"Remove [Famennia Mission] [in capital] <upon entering the [Carboniferous period]> <hidden from users>"
 		],
 	},
 	{
@@ -357,7 +360,7 @@
 		"Retain [-100]% of the happiness from a luxury after the last copy has been traded away",
 		"[+100]% Strength <for [Military] units> <in [Fallout] tiles>",
 		"Special Victory Condition: Build the Ground Zero improvement",
-		"Triggers victory <if [Ground Zero] is constructed>"],
+		"Triggers victory <if [Ground Zero] is constructed> <hidden from users>"],
 	},
 	// Biospheres
 	{
